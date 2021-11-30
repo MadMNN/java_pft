@@ -3,9 +3,11 @@ package ru.stqa.pft.sandbox;
 public class MyFirstProgram {
   public static void main(String[] args) {
 
-    String s0 = "str ", s1 = "ing";
+    Point p1 = new Point(2,3);
+    Point p2 = new Point(4,5);
 
-    System.out.println(s0+s1);
+
+    System.out.println(" расстояние методом = " + p1.distance_m(p2));
 
 
     System.out.println("Hello");
